@@ -1,0 +1,48 @@
+body{
+	margin:0;
+}
+.perspective{
+	width: 800px;
+	height: 400px;
+	margin: 100px auto;
+	position: relative;
+	perspective:800px;
+}
+
+.kuang{
+	width: 800px;
+	height: 500px;
+	box-shadow: 2px 2px 20px black; 
+	border-radius: 5px;
+	font-size:4em;
+	line-height: 200px;
+	text-align: center;
+	position: absolute; 
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -250px;
+	-webkit-transition:1s all ease;
+	
+}
+/*.kuang.yi{
+	
+	-webkit-transform:translateZ(0);
+	z-index:10;
+}
+.kuang.er{
+	-webkit-transform:translateZ(-200px) translateX(-250px);
+	z-index:5;
+}
+.kuang.san{
+	-webkit-transform:translateZ(-200px) translateX(250px);
+	z-index:5;
+}
+.kuang.si{
+	-webkit-transform:translateZ(-400px) translateX(-500px);
+	z-index:1;
+}
+.kuang.wu{
+	-webkit-transform:translateZ(-400px) translateX(500px);
+	z-index:1;
+}*/
